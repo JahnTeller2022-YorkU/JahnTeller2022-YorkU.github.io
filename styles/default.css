@@ -32,11 +32,11 @@ background-attachment: fixed;
 .container {width: 1000px; background-color:#0000ff;}
 
 /* Header */
-.titlebar  {width: 990px; height: 330px; margin: 0px auto; position: relative; left:0px; top:5px; text-align: left; background-image: url("../img/spectrum_formula_dynamics.jpg");  background-size: 990px 280px; background-repeat: no-repeat;background-color: #ffffff;}
+.titlebar  {width: 990px; height: 350px; margin: 0px auto; position: relative; left:0px; top:5px; text-align: left; background-image: url("../img/spectrum_formula_dynamics.jpg");  background-size: 990px 360px; background-repeat: no-repeat;background-color: #ffffff;}
 .imagebar  {width: 990px; height: 250px; margin: 0px auto; position: relative; left:0px; top:5px; text-align: left; background-color: #00ff00;}
 .menu      {width: 990px; height: 36px; margin: 0px auto; position: relative; left:0px; top:5px; text-align: left; background-color: #bbbbbb;}
 .content   {width: 990px; margin: 0px auto; position: relative; left:0px; top:5px; text-align: left; background-color: #ffffff;z-index: 3000;}
-.news      {float:right; width: 580px; height: 570px; margin: 10px; background-color: #ffffff;border-style: solid;border-width: medium;border-color: #bbbbbb;}
+.news      {float:right; width: 480px; height: 570px; margin: 10px; background-color: #ffffff;border-style: solid;border-width: medium;border-color: #bbbbbb;}
 
 /* Headings */
 h1 {font: 2.5em "Palatino Linotype", Palatino, serif; letter-spacing: 1px; font-weight: bold; color: #000000;position:absolute;left:170px;top:15px}

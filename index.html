@@ -25,12 +25,13 @@
 <div class="titlebar">
 
   <img src="img/JT_symp_york.jpg" width="760" height="75" style="position:absolute;left:110px;top:0px">
-  <h1 style="position:absolute;left:160px;top:70px"> 25<sup>th</sup> International Conference on the Jahn-Teller Effect </h1>
-  <h2 style="width: 990px position:absolute;left:170px;top:105px"><b> Vibronic Coupling and Jahn-Teller Effects in Polyatomic Systems</b> </h2>
-  <h2 style="width: 990px position:absolute;left:300px;top:128px;color:blue"><i><b>Novel Achievements and Applications</b></i> </h2>
-  <h2 style="position:absolute;left:330px;top:147px; color:red"> *** VIRTUAL CONFERENCE *** </h2>
-  <h2 id="demo" style="position:absolute;left:392px;top:163px"> 14<sup>th</sup>-18<sup>th</sup> May 2023</h2>
-  <h2 style="position:absolute;left:315px;top:187px"> Hosted by York University, Canada</h2>
+  <h1 style="position:absolute;left:160px;top:60px"> 25<sup>th</sup> International Conference on the Jahn-Teller Effect </h1>
+  <h2 style="width: 990px position:absolute;left:170px;top:95px"><b> Vibronic Coupling and Jahn-Teller Effects in Polyatomic Systems</b> </h2>
+  <h2 style="width: 990px position:absolute;left:300px;top:118px;color:blue"><i><b>Novel Achievements and Applications</b></i> </h2>
+  <h2 style="position:absolute;left:330px;top:137px; color:red"> *** VIRTUAL CONFERENCE *** </h2>
+  <h2 style="position:absolute;left:392px;top:153px"> 14<sup>th</sup>-18<sup>th</sup> May 2023</h2>
+  <h2 id="demo" style="position:absolute;left:290px;top:182px"> 14<sup>th</sup>-18<sup>th</sup> May 2023</h2>
+  <h2 style="position:absolute;left:315px;top:210px"> Hosted by York University, Canada</h2>
 
   <img src="img/Yorkunicrest1.png"  width="60" style="position:absolute;left:900px;top:0px">
 
@@ -61,7 +62,7 @@
 
 <!-- The content -->
 
-<div class="content" style="height: 890px;">
+<div class="content" style="height: 920px;">
 
 <div style="position:absolute;left:10px;top:10px">
 
@@ -136,8 +137,10 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Output the result in an element with id="demo"
-        document.getElementById("demo").innerHTML = "14<sup>th</sup>-18<sup>th</sup> May 2023 (<button>" + days + "d " + hours + "h "
-                + minutes + "m " + seconds + "s remaining before Session 1-1</button>)";
+        // document.getElementById("demo").innerHTML = "14<sup>th</sup>-18<sup>th</sup> May 2023 (<button>" + days + "d " + hours + "h "
+        //document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+        document.getElementById("demo").innerHTML = " <span style=\"background-color: #ffff00;\">" + days + "d " + hours + "h "
+                + minutes + "m " + seconds + "s remaining before opening </span>";
 
   // If the count down is over, write some text
   if (distance < 0) {

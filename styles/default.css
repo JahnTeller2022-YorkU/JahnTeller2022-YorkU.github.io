@@ -13,6 +13,26 @@ background-repeat: no-repeat !important;
 background-attachment: fixed;
 }
 
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button2 {background-color: #008CBA;} /* Blue */
+.button3 {background-color: #f44336;} /* Red */
+.button4 {background-color: #e7e7e7; color: black;} /* Gray */
+.button5 {background-color: #555555;} /* Black */
+.button6 {background-color: #ffff80;} /* Black */
+.button7 {background-color: #ff9900;} /* Orange */
+
 /*	height: 100%;
 	background-color: #0000FF;
 	text-align: center;
@@ -32,7 +52,7 @@ background-attachment: fixed;
 .container {width: 1000px; background-color:#0000ff;}
 
 /* Header */
-.titlebar  {width: 990px; height: 350px; margin: 0px auto; position: relative; left:0px; top:5px; text-align: left; background-image: url("../img/spectrum_formula_dynamics.jpg");  background-size: 990px 360px; background-repeat: no-repeat;background-color: #ffffff;}
+.titlebar  {width: 990px; height: 380px; margin: 0px auto; position: relative; left:0px; top:5px; text-align: left; background-image: url("../img/spectrum_formula_dynamics.jpg");  background-size: 990px 400px; background-repeat: no-repeat;background-color: #ffffff;}
 .imagebar  {width: 990px; height: 250px; margin: 0px auto; position: relative; left:0px; top:5px; text-align: left; background-color: #00ff00;}
 .menu      {width: 990px; height: 36px; margin: 0px auto; position: relative; left:0px; top:5px; text-align: left; background-color: #bbbbbb;}
 .content   {width: 990px; margin: 0px auto; position: relative; left:0px; top:5px; text-align: left; background-color: #ffffff;z-index: 3000;}

@@ -1083,8 +1083,10 @@ var x = setInterval(function() {
   // Output the result in an element with id="demo"
         // document.getElementById("demo").innerHTML = "14<sup>th</sup>-18<sup>th</sup> May 2023 (<button>" + days + "d " + hours + "h "
         //document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-        document.getElementById("demo").innerHTML = " <span style=\"background-color: #ffff00;\">" + days + "d " + hours + "h "
-                + minutes + "m " + seconds + "s remaining before opening </span>";
+        //document.getElementById("demo").innerHTML = " <span style=\"background-color: #ffff00;\">" + days + "d " + hours + "h "
+        //        + minutes + "m " + seconds + "s remaining before opening </span>";
+        document.getElementById("demo").innerHTML = " <span style=\"background-color: #ffff00;\"> Day 1 Sessions ongoing (<a href=\"https:\/\/yorku.zoom.us\/j\/94557601912?pwd=SXBSRUx0V242dHJmRncxdkh5bVIwQT09\" target=\"_blank\">Click to Join</a>) </span>";
+
 
   // If the count down is over, write some text
   if (distance < 0) {
